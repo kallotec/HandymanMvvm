@@ -2,11 +2,11 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.ObjectModel;
 using System.Collections.Generic;
-using HandymanMvvm;
+using HandymanMvvm.Collections;
+using HandymanMvvm.ViewModels;
 
 namespace HandymanMvvm.Tests
 {
-
     [TestClass]
     public class ObservableCollectionExtentionTests
     {
