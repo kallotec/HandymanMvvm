@@ -36,7 +36,7 @@ existingList.Refresh(freshList,
 // Update and order collection (if target model : RefreshableModel<>)
 // (Automatically calls to.Refresh(from) internally)
 
-GeofenceList.RefreshModels(HeartbeatService.LatestGeofences,
+existingList.RefreshModels(freshList,
     matchCondition: (from, to) => from.Id == to.Id,
     orderBy: (to) => to.Distance);
 
